@@ -3,7 +3,7 @@
 ## Script Overview
 
 ### DimLight.cs
-This script is in charge of the point light halo glow effect that is placed on icons inside of the environment. As the player controlled fish gets close to an icon, the glow will fade away, and when the fish swims away from the icon
+This script is in charge of the point light halo glow effect that is placed on icons inside of the environment. As the player controlled fish gets close to an icon, the glow will fade away, and reverts when the fish swims away from the icon.
 
 ### GUI_Manager.cs
 This script manages the GUI implementation and all visual and game elements that relate to it. It talks to the GUI_Trigger script in order to know when to activate. Upon activation it will populate the screen with the information prompt and then the fact information along with associated imagery. This include dimming, and blurring the screen, and managing layouts for all bodies of text.
